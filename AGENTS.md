@@ -2,6 +2,8 @@
 
 This is the canonical instruction file for coding agents working in this repository. Keep tool-specific entrypoints thin and do not duplicate these rules elsewhere.
 
+For the repository map, runtime architecture, invariants, and verification workflow, start with [Agent onboarding](AGENT_ONBOARDING.md).
+
 ## Repository map
 
 - `backend_api_python/`: Flask API, services, trading runtime, migrations, and backend tests.
